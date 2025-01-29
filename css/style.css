@@ -1,0 +1,251 @@
+  /* Apply Sora font globally */
+  body {
+    font-family: 'Sora', sans-serif;
+  }
+  .btn {
+    font-family: 'Sora', sans-serif;
+  }
+
+  .Custom-font {
+    font-family: 'Montserrat', sans-serif;
+  }
+  .social-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+.top-bar {
+    background-color: #232b2b;
+    color: white;
+    font-size: 16px;
+    padding: 10px 0;
+    
+    font-family: 'Sora', sans-serif;
+  }
+  .top-bar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  .top-bar img {
+    width: 20px; /* Icon size */
+    margin-right: 8px;
+  }
+  .language-selector {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-family: 'Sora', sans-serif;
+  }
+
+  /* For larger screens, show text and language selector */
+  .text-content {
+    display: flex;
+    align-items: center;
+  }
+  .icons {
+    display: none;
+  }
+
+
+  /* Style for Navbar Links */
+.navbar-nav .nav-item .nav-link {
+    color: black; /* Default text color */
+    font-weight: 500; /* Optional: For better font weight */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+/* Hover effect */
+.navbar-nav .nav-item .nav-link:hover {
+    color: #8a8a8a; /* Change text color to blue on hover */
+}
+
+/* Active link style */
+.navbar-nav .nav-item .nav-link.active {
+    color: #8a8a8a; /* Make the text blue when active */
+}
+
+
+
+/* CSS for Custom heading -- Custom title -- Custom Paragraph -- Custom Buttom -- */
+
+
+.custom-heading {
+  font-family: 'Montserrat', sans-serif;
+  color: #8a8a8a; /* Green color for "About Us" */
+  font-weight: bolder;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.custom-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900; /* Extra bold */
+  font-size: 2.5rem; /* Large bold text for the title */
+  margin-bottom: 20px;
+  line-height: 1.2; /* Slightly compact line spacing */
+}
+
+.custom-paragraph {
+  font-size: 1.1rem; /* Slightly larger text for readability */
+  line-height: 1.4; /* Adjust line spacing for better readability */
+  margin-bottom: 15px;
+  text-align: justify; /* Ensures the paragraph aligns on both sides */
+}
+
+.custom-button {
+  font-size: 1rem;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+
+/* --Form Part-- */
+.contact-section {
+  padding: 50px 11px;
+}
+.left-section {
+  padding-right: 30px;
+}
+.right-section {
+  background-color: rgb(245 245 245);
+  padding: 30px;
+  border-radius: 50px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+/* --Footer -- */
+
+footer{
+  background-color: #1e1e1e;
+}
+
+footer img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer li {
+  margin-bottom: 10px;
+}
+
+footer a {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #00a79d; /* Highlight color */
+}
+
+footer .border-top {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+
+/* top banner*/
+
+.hero-banner {
+  position: relative;
+  height:150px; /* Adjust as needed */
+  overflow: hidden;
+}
+
+.hero-banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image scales properly */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem; /* Adjust font size */
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+/* Maps*/
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  position: relative;
+  height: 0;
+}
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+/* Custom Product Card*/
+
+.custom-category-list {
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.custom-category-list h5 {
+  font-weight: 900;
+  
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 20px;
+}
+
+.custom-category-list ul li {
+  font-weight: 100;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 20px;
+}
+
+.custom-category-list ul li a {
+  color: #343a40;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.custom-category-list ul li a:hover {
+  text-decoration: underline;
+}
+
+.custom-card-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+  line-height: 1.2;
+}
+a.card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+a.card-link:hover {
+  text-decoration: none;
+}
+
+
+

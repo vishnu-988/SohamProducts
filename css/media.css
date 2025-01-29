@@ -1,0 +1,83 @@
+/* For smaller screens, show icons and language selector -- for top bar-- */
+@media (max-width: 1000px) {
+    .text-content {
+      display: none;
+    }
+    .icons {
+      display: flex;
+    }
+    .icons a {
+      margin-right: 10px;
+    }
+  }
+
+
+
+  /* For smaller screens, show icons and language selector --for Heading,Title,Paragraph-- */
+
+
+  @media (max-width: 991px) {
+    .custom-title {
+        font-size: 1.8rem; /* Smaller font size for tablets and phones */
+    }
+
+    
+}
+
+
+
+
+.custom-paragraph {
+    font-size: 1.1rem; /* Slightly larger text for readability */
+    line-height: 1.4;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.custom-button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+
+
+@media (max-width: 380px) {
+  .custom-title {
+      font-size: 1.5rem; /* Smaller font size for tablets and phones */
+  }
+}
+
+
+@media (max-width: 768px) {
+    .contact-header {
+        padding: 2rem 0; /* Reduce padding on smaller screens */
+    }
+
+    .contact-header h1 {
+        font-size: 2.5rem; /* Adjust font size for smaller screens */
+    }
+
+    .contact-header .breadcrumb {
+        font-size: 0.875rem; /* Reduce breadcrumb size */
+    }
+    
+   
+  
+    .custom-category-list ul li {
+      font-size: 0.9rem; /* Adjust list size for smaller screens */
+    }
+  
+    .custom-card-title {
+      font-size: 1.25rem; /* Adjust card title size */
+    }
+}
+
+@media (max-width: 576px) {
+    .contact-header h1 {
+        font-size: 2rem; /* Further reduce font size for extra small screens */
+    }
+  
+}
+
+
